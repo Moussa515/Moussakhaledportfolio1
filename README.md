@@ -53,8 +53,6 @@ Data Quality Notes	Handled missing values, standardized categorical fields (e.g.
 🛠️ Tools & Technologies
 Tool	Purpose
 SQL (T-SQL)	Data extraction, CTEs, window functions (`ROW_NUMBER`, `DENSE_RANK`, `SUM OVER`), conditional logic (`CASE WHEN`), and aggregations.
-Power BI	Interactive visual dashboards and executive KPI reporting.
-Excel	Initial data exploration, raw data audit, and quick verification.
 
 
 
@@ -67,12 +65,8 @@ Data Cleaning & Filtering (SQL)
 Dynamic Categorization & Window Aggregations (SQL)
    ↓
 Exploratory Analysis & Query Development
-   ↓
-KPI & Metric Extraction
-   ↓
-Dashboard Integration & Reporting
-   ↓
-Business Insights & Strategic Recommendations
+   
+
 ```
 Raw Data Ingestion: Operational data was loaded from `[Supply chain analytics]`.
 Data Filtering & Cleaning: Filtered out incomplete demographic records (`Customer_Gender <> 'Unknown'`) and validated calculation fields.
@@ -153,9 +147,9 @@ Supply-Chain-Analytics/
 │   ├── 02_Revenue_and_SKU_Analysis.sql
 │   ├── 03_Logistics_and_Suppliers.sql
 │   └── 04_Demographics_and_Rankings.sql
-├── Power_BI/
-│   └── Supply_Chain_Dashboard.pbix
+|
+│  
 └── README.md
 ```
 ⭐ Skills Demonstrated
-`Supply Chain Analytics` `SQL (T-SQL)` `CTE (Common Table Expressions)` `Window Functions` `Subqueries` `Data Aggregation` `Inventory Management` `Logistics Optimization` `Power BI` `Business Intelligence` `Process Optimization`
+`Supply Chain Analytics` `SQL (T-SQL)` `CTE (Common Table Expressions)` `Window Functions` `Subqueries` `Data Aggregation` `Inventory Management` `Logistics Optimization`   `Process Optimization`
